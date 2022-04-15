@@ -17,10 +17,10 @@ function Header() {
       <img className="w-10 ml-5  h-10 rounded-full object-cover border border-yellow-400 " src={Profile} alt="picture" />
 
       <ul className=" hidden sm:block sm:flex items-center space-x-4 mr-5 text-white font-semibold ">
-        <li className="hover:bg-yellow-500 p-2  hover:rounded-md hover:border-yellow-400">Home </li>
-        <li  className="hover:bg-yellow-500 p-2  hover:rounded-md hover:border-yellow-400"> Skills</li>
-        <li  className="hover:bg-yellow-500 p-2  hover:rounded-md hover:border-yellow-400">Projects</li>
-        <li  className="hover:bg-yellow-500 p-2  hover:rounded-md hover:border-yellow-400">Contact</li>
+        <li  className="hover:bg-white p-2  hover:rounded-md hover:text-black ">Home </li>
+        <li  className="hover:bg-white p-2  hover:rounded-md hover:text-black"> Skills</li>
+        <li  className="hover:bg-white p-2  hover:rounded-md hover:text-black">Projects</li>
+        <li  className="hover:bg-white p-2  hover:rounded-md hover:text-black">Contact</li>
 
       </ul>
 
@@ -31,10 +31,10 @@ function Header() {
             <img className=" w-10 h-10" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB/klEQVRoge2Zyy4EURCGP0PcthNbvIOIWDAWPAMhM52wtvAYLvEGJHbegYSdRKzc9qxZug1mLE43rdN9Zk5Vd9NJ/0ltpufU//+nzqVTDSVKlCjxl+hx+O8IsACMAi/ABXAGtJQaeoFpYAIYAu6AI+BBmfcbA8Au8Aa0I3ED1BS554DbmLyvwI7PrcIAcBpDEI4mUBfkrvtjbblPUJrY7UAQxCfQcMjb8Md0k3tbKn4EU8puSFxMuIhvY/ZbVWJgxYEkbMKz5PQcxQexlJSwYiEbtftLzLdPvAnPf2bjTMK4jTAJzwKiIGfUhEY8wFPSgz7LoAshGfyYAHP87iEXD3AuFXGN+3qN7gnJmg/HJQrzNTqf1VlGE5iRig9QRz+L0upJLshYLAHvOYu3Hcf/2kQm4sMmPooqPmsTuYjPykSu4gOkZUIlXnM7FhqFXkKF3sSFPkazFp+pibzEZ2Ki0C9zc/z96/SsVHwv8U0n11nUVu8K4X01k4J4j3T2z7TEwEYK4gNoTawnibSVZrB7r7/QAlaBg9Bvh8Aa8kbwsGTQMvqZj0La2FqUGCh8axFMiztN8RITW1LxYFrbJx0Ism6v92sMgDGxjSlllOASXd9mFnPOxy2bTboQ7/KJqQrMA2OYvXHuh/YTUwWYAiYxk3UPHAOPyrwlSpQokQO+AN9N+IV88rnoAAAAAElFTkSuQmCC" />
           </button>
 
-          <li >Home </li>
-          <li> Skills</li>
-          <li>Projects</li>
-          <li>Contact</li>
+          <li  className="hover:bg-white p-2  hover:rounded-md hover:text-black " >Home </li>
+          <li  className="hover:bg-white p-2  hover:rounded-md hover:text-black "> Skills</li>
+          <li  className="hover:bg-white p-2  hover:rounded-md hover:text-black ">Projects</li>
+          <li  className="hover:bg-white p-2  hover:rounded-md hover:text-black ">Contact</li>
         </ul>
       }
       {menu &&

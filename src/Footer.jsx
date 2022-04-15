@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="bg-gray-400 text-center">
+    <div className="bg-gray-400  py-5 text-center">
       <div className=" mt-2 justify-center space-x-8 p-2 flex  ">
          
           <a target="_blank"  href="https://github.com/NeerajRawat01/"><img className="w-10 h-10" src="https://pngimg.com/uploads/github/github_PNG53.png" alt=""  /></a>
