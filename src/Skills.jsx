@@ -1,25 +1,47 @@
 import React from "react";
-import Card from "./Card"
-import css from "./images/css.png"
-import html from "./images/html.png"
-import javaScript from "./images/javaScript.png"
-import tailwind from "./images/tailwind.png"
-import react from "./images/react.png"
-import bg from "./images/bg.png"
+import css from "./images/css.png";
+import html from "./images/html.png";
+import javaScript from "./images/javaScript.png";
+import tailwind from "./images/tailwind.png";
+import react from "./images/react.png";
+
 function Skills() {
   return (
     <>
-    <h1 className=" mt-2 text-center text-3xl font-bold text-gray-700" > Skills</h1>
-    <div   className="flex shrink-0   flex-wrap  p-10 border  space-y-2 mt-2 m-5 flex-col px-6
-    sm:flex-row sm:justify-between sm:px-20 items-center "  >
-      
-        <Card  w="w-60" scale="hover:scale-110 duration-500" hover="hover:bg-gray-400" image={html}>HTML</Card>
-        <Card  w="w-60" scale="hover:scale-110 duration-500" hover="hover:bg-gray-400" image={css}>CSS</Card>
-        <Card  w="w-60" scale="hover:scale-110 duration-500" hover="hover:bg-gray-400" image={javaScript}>JAVA SCRIPT</Card>
-        <Card  w="w-60" scale="hover:scale-110 duration-500" hover="hover:bg-gray-400" image={tailwind}>TAILWIND CSS</Card>
-        <Card  w="w-60" scale="hover:scale-110 duration-500" hover="hover:bg-gray-400" image={react}>REACT JS</Card>
-      
-    </div>
+      <h1 className=" p-10 mt-10 text-center text-3xl  font-bold text-gray-700">
+        My Skills
+      </h1>
+      <div className="flex flex-wrap px-5 py-3 space-y-5  justify-between  lg:space-y-2 lg:space-x-10 lg:justify-start m-10">
+        <span className="w-52 hidden md:block lg:hidden"></span>
+        <span className="w-52 hidden md:block lg:hidden"></span>
+        <span className="w-52 hidden md:block lg:hidden"></span>
+        <div className="flex flex-col   px-5 py-3 items-center rounded-md shadow-md border w-full sm:w-52  ">
+          <img className="w-36 h-28" src={html} alt="" />
+          <span>Html</span>
+        </div>
+
+        <div className="flex flex-col px-5 py-3 items-center rounded-md shadow-md border w-full sm:w-52   ">
+          <img className="w-36 h-28" src={css} alt="" />
+          <span>css</span>
+        </div>
+
+        <div className="flex flex-col px-5 py-3  items-center rounded-md shadow-md  border w-full sm:w-52  ">
+          <img className="w-36 h-28" src={javaScript} alt="" />
+          <span>javaScript</span>
+        </div>
+
+        <div className="flex flex-col px-5 py-3 items-center rounded-md shadow-md border w-full sm:w-52   ">
+          <img className="w-36 h-28" src={tailwind} alt="" />
+          <span>Tailwind css</span>
+        </div>
+
+        <div className="flex flex-col px-5 py-3 items-center rounded-md shadow-md border w-full sm:w-52   ">
+          <img className="w-36 h-28" src={react} alt="" />
+          <span>react Js</span>
+        </div>
+
+        <span className="w-48 hidden md:block lg:hidden"></span>
+      </div>
     </>
   );
 }
