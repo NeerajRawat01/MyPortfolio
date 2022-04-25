@@ -12,11 +12,11 @@ function Projects() {
       </h1>
 
       <div className="px-10 py-3 space-y-2 ">
-        <div className="flex flex-col  sm:flex-row space-x-20 hover:bg-red-400 rounded-md shadow-md border p-5 transition ease-in-out delay-150  hover:-translate-y-1 hover:hover:transition-all hover:bg-red-400 duration-300 ">
+        <div className="flex flex-col  sm:flex-row md:space-x-20 hover:bg-red-400 rounded-md shadow-md border p-5 transition ease-in-out delay-150  hover:-translate-y-1 hover:hover:transition-all hover:bg-red-400 duration-300 ">
           <img className="w-80 rounded-md" src={askJude} alt="" />
           <div className="self-center">
             <h1 className="font-bold text-xl">Ask Jude clone</h1>
-            <p className="mb-5 mt-5 text-xl font-semibold">
+            <p className="mb-5 mt-5 mr-10 text-xl font-semibold">
               <span className="text-gray-500"> A clone of Ask Jude.</span> Do
               you need to ask a question? Are you looking for answers? Jud
               offers you a space to ask anything you want. However, before each
@@ -32,7 +32,7 @@ function Projects() {
             </a>
           </div>
         </div>
-        <div className="flex flex-col sm:flex-row space-x-20 hover:bg-red-400 rounded-md shadow-md border p-5 transition ease-in-out delay-150  hover:-translate-y-1 hover:hover:transition-all hover:bg-red-400 duration-300 ">
+        <div className="flex flex-col sm:flex-row md:space-x-20 hover:bg-red-400 rounded-md shadow-md border p-5 transition ease-in-out delay-150  hover:-translate-y-1 hover:hover:transition-all hover:bg-red-400 duration-300 ">
           <img className="w-80 rounded-md" src={codeYogi} alt="" />
           <div className="self-center">
             <h1 className="font-bold text-xl ">Code Yogi App clone</h1>
@@ -53,7 +53,7 @@ function Projects() {
             </a>
           </div>
         </div>
-        <div className="flex flex-col sm:flex-row space-x-20 hover:bg-red-400 rounded-md shadow-md border p-5 transition ease-in-out delay-150  hover:-translate-y-1 hover:hover:transition-all hover:bg-red-400 duration-300">
+        <div className="flex flex-col sm:flex-row md:space-x-20 hover:bg-red-400 rounded-md shadow-md border p-5 transition ease-in-out delay-150  hover:-translate-y-1 hover:hover:transition-all hover:bg-red-400 duration-300">
           <img className="w-80 rounded-md" src={todo} alt="" />
           <div className="self-center  ">
             <h1 className="font-bold text-xl">Todo App</h1>
